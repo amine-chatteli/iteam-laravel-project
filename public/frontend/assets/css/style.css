@@ -373,7 +373,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: flex-end;
   justify-content: center;
   position: absolute;
-  bottom: 60px;
+  /* bottom: 60px; */
   top: 70px;
   left: 55px;
   right: 55px;
@@ -381,7 +381,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .carousel-content {
   background: rgba(4, 4, 4, 0.7);
-  padding: 20px;
+  padding: 30% 64%;
   color: #fff;
   -webkit-animation-duration: .5s;
   animation-duration: .5s;
@@ -486,7 +486,8 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 1024px) {
   #hero .carousel-content {
-    width: 60%;
+    /* width: 100%; */
+    margin-top: -13%;
   }
   #hero .carousel-control-prev, #hero .carousel-control-next {
     width: 5%;

@@ -98,7 +98,7 @@
   });
 
   heroCarousel.on('slid.bs.carousel', function(e) {
-    $(this).find('.carousel-content ').addClass('animate__animated animate__fadeInDown');
+    $(this).find('.carousel-content ').addClass('animate__animated');
   });
 
   // Back to top button

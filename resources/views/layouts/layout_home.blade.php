@@ -55,7 +55,7 @@
           <li><a href="#about-us">About</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="{{url("contact")}}">Contact</a></li>
+          <li><a href="#contact">Contact</a></li>
 
         </ul>
       </nav><!-- .nav-menu -->
@@ -66,45 +66,61 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero">
+<!-- ======= Hero Section ======= -->
+<section id="hero">
     <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
 
-      <div class="carousel-inner" role="listbox">
-        <!-- Slide 1 -->
-        @foreach($sliders as $slider)
-        @if($loop->first)
-         <?php $active='active' ?>;
-         @else <?php $active='' ?> ;
-         @endif
-
-        <div class="carousel-item {{$active}}" style="background-image: url({{asset("$slider->slider_img")}});">
-            <div class="carousel-container">
-            <div class="carousel-content animate__animated animate__fadeInUp">
-              <h2>{{$slider->slider_title}}</h2>
-              <p>{{$slider->slider_description}}.</p>
-              <div class="text-center"><a href="" class="btn-get-started">Read More</a></div>
+        <div class="carousel-inner" role="listbox">
+            <!-- Slide 1 -->
+            <div class="carousel-item active" style="background-image: url('{{ asset("images/slider/1702058906952093.jpg") }}');">
+                <div class="carousel-container">
+                    <div class="carousel-content">
+                      <div>
+                        <h2>Title 1</h2>
+                        <p>Description 1.</p>
+                        <div class="text-center"><a href="#" class="btn-get-started">Read More</a></div>
+</div>
+                      </div>
+                </div>
             </div>
-          </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item" style="background-image: url('{{ asset("images/slider/1702058938987818.jpg") }}');">
+                <div class="carousel-container">
+                    <div class="carousel-content">
+                        <h2>Title 2</h2>
+                        <p>Description 2.</p>
+                        <div class="text-center"><a href="#" class="btn-get-started">Read More</a></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="carousel-item" style="background-image: url('{{ asset("images/slider/1702058955553629.jpg") }}');">
+                <div class="carousel-container">
+                    <div class="carousel-content">
+                        <h2>Title 3</h2>
+                        <p>Description 3.</p>
+                        <div class="text-center"><a href="#" class="btn-get-started">Read More</a></div>
+                    </div>
+                </div>
+            </div>
         </div>
-        @endforeach
 
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon icofont-simple-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
 
-      </div>
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon icofont-simple-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
 
-      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon icofont-simple-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-
-      <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon icofont-simple-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-
-      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
 
     </div>
-  </section><!-- End Hero -->
+</section><!-- End Hero -->
 
   <main id="main">
 
@@ -159,4 +175,4 @@
 
 </body>
 
-</html>{{asset('frontend/
+</html>
