@@ -43,7 +43,8 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo mr-auto"><a href="index.html"><span>Com</span>pany</a></h1>
+      <img class="logo-img mr-auto" src="/images/iteam.jpg" />
+
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -53,8 +54,8 @@
 
 
           <li><a href="#about-us">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#services">Schedule</a></li>
+          <li><a href="#portfolio">Speakers</a></li>
           <li><a href="#contact">Contact</a></li>
 
         </ul>
@@ -76,9 +77,9 @@
                 <div class="carousel-container">
                     <div class="carousel-content">
                       <div>
-                        <h2>Title 1</h2>
-                        <p>Description 1.</p>
-                        <div class="text-center"><a href="#" class="btn-get-started">Read More</a></div>
+                        <h2>ITEAM LARAVEL EVENT</h2>
+                        <p>Annual laravel event in iTeam university</p>
+                        <div class="text-center"><a href="#" class="btn-get-started">Make a reservation</a></div>
 </div>
                       </div>
                 </div>
@@ -143,7 +144,6 @@
           <!-- You can delete the links only if you purchased the pro version. -->
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/company-free-html-bootstrap-template/ -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
         </div>
       </div>
       <div class="social-links text-center text-md-right pt-3 pt-md-0">

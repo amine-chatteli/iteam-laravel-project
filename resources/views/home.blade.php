@@ -7,7 +7,7 @@
     <div class="container" data-aos="fade-up">
 
       <div class="section-title">
-        <h2>About Us</strong></h2>
+        <h2>About the event</strong></h2>
       </div>
 
       <div class="row content">
@@ -31,8 +31,8 @@
     <div class="container" data-aos="fade-up">
 
       <div class="section-title">
-        <h2>Services</strong></h2>
-        <p>Laborum repudiandae omnis voluptatum consequatur mollitia ea est voluptas ut</p>
+        <h2>Schedule</strong></h2>
+        <p>this is the event schedule</p>
       </div>
 
       <div class="row">
@@ -63,7 +63,7 @@
     <div class="container">
 
       <div class="section-title" data-aos="fade-up">
-        <h2>Portfolio</h2>
+        <h2>SPEAKERS</h2>
       </div>
 
       <div class="row" data-aos="fade-up">
